@@ -1,0 +1,18 @@
+# Add nano as default editor
+export EDITOR=vim
+export TERMINAL=lxterminal
+export BROWSER=chromium
+
+# Gtk themes 
+export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+
+alias ls='ls --color=auto'
+alias spotify='spotify-wrapper.sh'
+
+alias a='clear && ls'
+
+#alias fuck='shutdown -h now'
+alias fuck='shutdown -h now'
+alias q='exit'
+
+source /home/brody/Documents/fast_ai/courses/setup/aws-alias.sh
