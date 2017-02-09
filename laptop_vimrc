@@ -13,7 +13,7 @@ call vundle#begin()
 
 " required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'w0rp/ale'
 
@@ -23,3 +23,4 @@ filetype plugin indent on
 
 set background=dark
 "colorscheme solarized
+set completeopt-=preview
