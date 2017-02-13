@@ -122,3 +122,4 @@ export PATH=/home/brody/anaconda3/bin:$PATH
 # my aliases
 alias a='clear && ls'
 alias q='exit'
+alias vim='nvim'
