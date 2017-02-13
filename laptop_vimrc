@@ -4,7 +4,7 @@ set cursorline
 set number
 syntax enable
 
-" Vundle stuff
+Vundle stuff
 set nocompatible
 filetype off
 
